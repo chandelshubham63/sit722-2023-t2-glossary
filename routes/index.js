@@ -16,7 +16,7 @@ const glossary_list = [
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Glossary', glossary: glossary_list });
+  res.render('index', { title: 'SIT722 Glossary', glossary: glossary_list });
 });
 
 module.exports = router;
